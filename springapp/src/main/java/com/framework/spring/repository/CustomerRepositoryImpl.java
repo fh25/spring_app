@@ -8,6 +8,7 @@ import java.util.List;
 
 @Repository
 public class CustomerRepositoryImpl implements CustomerRepository {
+
   @Override
   public List<Customer> findAll() {
     List<Customer> customers = new ArrayList<>();
@@ -19,5 +20,6 @@ public class CustomerRepositoryImpl implements CustomerRepository {
 
     return customers;
   }
+
 }
 
